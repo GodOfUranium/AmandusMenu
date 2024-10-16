@@ -72,9 +72,14 @@
                     return articleHtml;
                 })
                 .join("");
+
+            categoryName =
+                category == "Specials"
+                    ? `<h2><em>${category}</em></h2>`
+                    : `<h2>${category}</h2>`;
             return `
                 <section>
-                    <h2>${category}</h2>
+                    ${categoryName}
                     ${itemsHtml}
                 </section>`;
         })
