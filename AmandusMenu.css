@@ -38,7 +38,11 @@ h1, h2{
     font-family: serif;
 }
 
-.item p{
+.item {
+    display: flex;
+}
+
+.item p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
