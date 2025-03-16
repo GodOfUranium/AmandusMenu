@@ -5,9 +5,9 @@
         try {
             const response = await fetch("./items.csv");
             const csvData = await response.text();
-            console.log("csvData:", csvData);
+            // console.log("csvData:", csvData);
             const jsonData = csvToJson(csvData);
-            console.log("jsonData:", jsonData);
+            // console.log("jsonData:", jsonData);
             return jsonData;
         } catch (error) {
             console.error("Error fetching data:", error);
