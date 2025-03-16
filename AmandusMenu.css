@@ -1,24 +1,24 @@
-body{
+body {
     background-image: url('coffeeBeansWallpaper-min.jpg');
     font-family: sans-serif;
     padding: 20px;
 }
 
-h1{
+h1 {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-h1, h2, p{
+h1, h2, p {
     text-align: center;
 }
 
-.menu{
+.menu {
     width: 80%;
     background-color: burlywood;
     margin-left: auto;
@@ -27,16 +27,16 @@ h1, h2, p{
     max-width: 500px;
 }
 
-hr{
+hr {
     height: 2px;
     background-color: brown;
     border-color: brown;
 }
-.bottom-line{
+.bottom-line {
     margin-top: 25px;
 }
 
-h1, h2{
+h1, h2 {
     font-family: serif;
 }
 
@@ -51,19 +51,34 @@ h1, h2{
     font-size: 18px;
 }
 
-.product{
+.product {
     text-align: left;
     width: 75%;
 }
-.price{
+.price {
     text-align: right;
     width: 25%;
 }
 
-footer{
+footer {
     font-size: 14px;
 }
 
-.address{
+.address {
     margin-bottom: 5px;
+}
+
+.loading {
+    width: 50px;
+    height: 50px;
+    border: 10px solid rgba(102, 8, 8, 0.1);
+    border-top-color: rgb(102, 8, 8);
+    border-radius: 50%;
+    animation: spin 1.2s ease-in-out infinite;
+    margin: 25px auto 0px auto;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }
